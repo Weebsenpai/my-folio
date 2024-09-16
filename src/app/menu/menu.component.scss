@@ -1,0 +1,25 @@
+.navBarItems{
+    font-family: "Clash";
+    font-weight: 300;
+    font-size: 52px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.navItemDiv{
+    width: 80%;
+    margin: auto auto;
+    padding-left: 5%;
+}
+
+.jelly-text {
+    display: flex; /* Display letters in a row */
+    font-size: 62px;
+    cursor: pointer;
+  }
+  
+  .jelly-text span {
+    display: inline-block; /* Allows transformation */
+    transition: transform 0.1s ease; /* Quick transition for a responsive hover effect */
+  }

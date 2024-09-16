@@ -1,0 +1,50 @@
+.menu-btn{
+    position: fixed;
+    top: 80px;
+    right: 100px;
+    height: 50px;
+    width: 50px;
+    z-index: 100001;
+}
+
+.custom-cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    background-color: rgba(0, 150, 255, 0.1); /* Light blue color with transparency */
+    border-radius: 50%; /* Makes it a circle */
+    pointer-events: none; /* So it doesn't interfere with clicking */
+    transform: translate(-50%, -50%); /* Centers the ball on the cursor position */
+    transition: background-color 0.3s ease; /* Smooth color transition */  
+    z-index: 99999999;
+}
+
+.normal-size{
+    width: 20px;
+    height: 20px;
+}
+
+.enlarge-size{
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.loadingscreen{
+    background: url(../assets/images/noise_t.png);
+    background-color: white;
+}
+.loadingscreen1{
+    background: url(../assets/images/noise_t.png);
+    background-color: rgb(50, 50, 50);
+    position: fixed;
+    right: 0;
+}
+.wrapper{
+    overflow: hidden;
+}
+
+.letter{
+  position: relative;  
+}

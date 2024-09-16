@@ -1,0 +1,140 @@
+.navBarItems{
+    font-family: "Clash";
+    font-weight: 300;
+    font-size: 52px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.navItemDiv{
+    display: none;
+    width: 80%;
+    margin: auto auto;
+    padding-left: 5%;
+}
+
+// .navBarItems{
+//     font-variation-settings: '';
+// }
+
+.scale-letter{
+    display: inline-block;  /* Ensure the element is treated as a block-level element for transformation */
+    transform: scaleX(1.5); 
+}
+
+.word{
+    letter-spacing: 2px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.font-bold{
+    font-family: 'Clash-Bold';
+}
+
+.desig-div{
+    font-size: 2rem;
+    position: relative;
+    opacity: 0;
+}
+
+.desing-css{
+    position: absolute;
+    left: 59%;
+
+}
+
+.my-name{
+    font-family: "Clash-Bold";
+    font-size: 6rem;
+    position: relative;
+    z-index: 2;
+    letter-spacing: 5px;
+}
+
+.m-letter{
+    display: inline-block;
+    transform: translate(-400px,0px);
+}
+
+h1{
+    font-weight: unset;
+    margin: 0;
+    line-height: 1;
+}
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Box color */
+    z-index: 1; /* Ensure it appears above the text */
+}
+
+.intro-text{
+    font-family: 'Clash';
+    font-size: 34px;
+    opacity: 0;
+    font-weight: 500;
+
+}
+
+.a-letter{
+    font-family: 'Clash-Regular';
+}
+
+.cursor {
+    display: inline-block;
+    width: 1px;
+    background-color: black;
+    margin-left: 2px;
+    animation: blink 1s infinite;
+}
+
+.spinner-container2 {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    cursor: pointer;
+  }
+  
+  .spinner-container {
+    cursor: pointer;
+  }
+  
+  #clover {
+    width: 100%;
+    height: 100%;
+    transform-origin: center center;
+    filter: url(#grainy);
+  }
+
+  .jelly-text {
+    display: flex; /* Display letters in a row */
+    font-size: 62px;
+    cursor: pointer;
+  }
+  
+  .jelly-text span {
+    display: inline-block; /* Allows transformation */
+    transition: transform 0.1s ease; /* Quick transition for a responsive hover effect */
+  }
+
+@keyframes blink {
+    0%, 50% {
+      opacity: 1;
+    }
+    51%, 100% {
+      opacity: 0;
+    }
+  }

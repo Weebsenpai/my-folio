@@ -1,0 +1,24 @@
+<svg width="90" height="90" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <!-- Row 1 -->
+            <circle cx="50" cy="50" r="10" fill="white" />
+            <circle cx="100" cy="50" r="10" fill="white" />
+            <circle cx="150" cy="50" r="10" fill="white" />
+          
+            <!-- Row 2 -->
+            <circle cx="50" cy="100" r="10" fill="white" />
+            <circle cx="100" cy="100" r="10" fill="white" />
+            <circle cx="150" cy="100" r="10" fill="white" />
+          
+            <!-- Row 3 -->
+            <circle cx="50" cy="150" r="10" fill="white" />
+            <circle cx="100" cy="150" r="10" fill="white" />
+            <circle cx="150" cy="150" r="10" fill="white" />
+          
+            <!-- Horizontal Rectangles Connecting Columns -->
+            <!-- First Column -->
+            <rect x="35" y="35" width="130" height="30" fill="none" stroke="white" stroke-width="5" rx="15" ry="15"/>
+            <!-- Second Column -->
+            <rect x="35" y="85" width="130" height="30" fill="none" stroke="white" stroke-width="5"  rx="15" ry="15"/>
+            <!-- Third Column -->
+            <rect x="35" y="135" width="130" height="30" fill="none" stroke="white" stroke-width="5"  rx="15" ry="15"/>
+          </svg>

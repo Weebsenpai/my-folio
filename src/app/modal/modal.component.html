@@ -1,0 +1,12 @@
+<div  *ngIf="isVisible" class="w-full modal-outer">
+  <div class="back-btn-div" (click)="closeModal()">
+    <span class="back-btn-label">Skills</span>
+    <img style="width: 200px; height: 100px;" src="./assets/images/back-btn.png"/>
+  </div>
+  <div class="modal-container">
+    <div class="modal-content text-container">
+      <h2>{{modalTitle}}</h2>
+      <p #paragraph class="animated-text" *ngFor="let para of modalDescription.split('/')">{{ para }}</p>
+    </div>
+  </div>
+</div>

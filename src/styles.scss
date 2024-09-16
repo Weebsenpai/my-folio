@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Clash";
+    src: url("../src/assets/fonts/ClashDisplay-Variable.ttf") format("truetype-variations"); 
+}
+
+@font-face {
+    font-family: "Archivo";
+    src: url("../src/assets/fonts/Archivo-Variable.ttf") format("truetype-variations"); 
+}
+
+@font-face {
+    font-family: "Clash-Bold";
+    src: url("../src/assets/fonts/ClashDisplay-Bold.otf");
+}
+
+@font-face {
+    font-family: "Clash-Elight";
+    src: url("../src/assets/fonts/ClashDisplay-Extralight.otf");
+}
+
+@font-face {
+    font-family: "Clash-Medium";
+    src: url("../src/assets/fonts/ClashDisplay-Medium.otf");
+}
+
+@font-face {
+    font-family: "Clash-Regular";
+    src: url("../src/assets/fonts/ClashDisplay-Regular.otf");
+}
+
+@font-face {
+    font-family: "Archivo";
+    src: url("../src/assets/fonts/Archivo-SemiBold.otf");
+}
+
+body {
+    color: white;
+    width: 100dvw;
+    overflow-x: hidden;
+    height: 100%;
+    background: #000;
+    border-color: #3b3b3b;
+    user-select: none;
+    font-family: 'Archivo';
+
+}
+
+.grainy{
+    background: url('./assets/images/noise_t.png');
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.highlight{
+    font-weight: 600;
+    color: #ffce85;
+}
+
+.font-clash{
+    font-family: 'Clash';
+}

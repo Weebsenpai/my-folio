@@ -1,0 +1,17 @@
+.loadingscreen{
+    background: url('../../assets/images/noise_t.png');
+    background-color: white;
+}
+.loadingscreen1{
+    background: url('../../assets/images/noise_t.png');
+    background-color: rgb(50, 50, 50);
+    position: fixed;
+    right: 0;
+}
+.wrapper{
+    overflow: hidden;
+}
+
+.letter{
+  position: relative;  
+}

@@ -1,0 +1,70 @@
+.wrapper {
+    overflow-x: hidden;
+    position: relative;
+    font-family: 'Clash';
+    font-weight: 400;
+}
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    position: absolute;
+    top: 10em;
+    left: 10vw;
+    width: 50vw;
+
+    .mask {
+        width: 0;
+    }
+}
+
+.container {
+    display: flex;
+    width: 400vw;
+
+    .col {
+        display: flex;
+        gap: 3em;
+        
+        p {
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+            text-align: justify;
+        }
+    }
+
+    section {
+        width: 100vw;
+        padding: 14vw 10vw;
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1rem;
+            min-width: 40vw;
+        }
+    }
+}
+
+section {
+    height: 100vh;
+
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.gap-48{
+    gap: 11.5rem;
+}
+
+.highlight{
+    font-weight: bold !important;
+    color: #ff6347; /* You can change this color to whatever suits your design */
+  }

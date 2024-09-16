@@ -1,0 +1,11 @@
+<div class="h-[100vh] grainy w-full flex mx-auto">
+    <div class="navItemDiv" #div2>
+        <div *ngFor="let navItem of navbarOptions; let i = index" #menuItems>
+            <div class="navBarItems jelly-text wave" [id]="'menu-item-'+i" (click)="navigateToPage(i)">
+              <span
+              (mouseenter)="increaseCursorSize()" (mouseleave)="resetCursorSize()"
+              #menuItem *ngFor="let char of navItem.split('')" >{{ char }}</span>
+            </div>
+          </div> 
+    </div>
+</div>

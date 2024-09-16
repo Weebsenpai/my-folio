@@ -1,0 +1,33 @@
+<div class="min-h-screen grainy flex flex-col items-center justify-center">
+    <div class="normal-btn-div" (click)="removeInterativeSphere()">
+        <span class="normal-btn">
+            Switch To Normal
+        </span>
+    </div>
+    <div class="loading-text" id="loading-text">Loading... <span id="loading-percentage">0%</span></div>
+    <div #rendererContainer class="renderer-container"></div>
+    <app-modal *ngIf="isModalVisible" [isVisible]="isModalVisible" [modalTitle]="skillName" [modalDescription]="skillDescription"  (close)="closeModal()"></app-modal>
+    <div #skillsUnInteractive class="skill-div-2">
+        <div *ngIf="!isModalVisible" class="grid md:grid-cols-10 auto-rows-[100px] gap-5">
+            <div #gridDiv
+                [class]='normalViewDivCSS' 
+                *ngFor="let skill of normalSkillView; let i =index"
+                [ngClass]="{
+                    'md:col-span-2': i=== 0 || i === 2 || i === 4  || i === 5 || i == 6 || i === 9 || i === 11 || i === 13 || i === 14 || i === 16 || i === 17 || i === 18 || i === 19,
+                    'md:row-span-2': i ===0 || i === 1 || i === 3 || i === 4 || i===6|| i === 7 || i === 8 ,
+                    'md:col-span-3': i === 1 || i === 8 || i === 10 ,
+                    'md:row-span-4': i === 2,
+                    'md:col-span-2.5': i=== 13,
+                    'md:text-base' : i >= 11,
+                }"
+                (mouseenter)="onHover($event)" 
+                (mouseleave)="onLeave($event)"
+                (click)="openModal(skill.name,skill.description,i)"
+            >
+                <div>
+                    <h2 class="font-bold" *ngFor="let skill1 of skill.name.split('/')">{{ skill1 }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

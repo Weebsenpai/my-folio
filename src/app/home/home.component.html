@@ -1,0 +1,24 @@
+<div class="opacity-0 grainy w-full h-[100vh] flex mx-auto justify-center items-center div-top">
+        <!-- <div (click)="menuBtnClicked()" class="menu-btn .increase-cursor-size">
+            <img #menuBtn style="scale: 1.3;" [src]="menuImageSrc" alt="">
+        </div> -->
+    <div #div1>
+        <h3 class="intro-text">Hey, I am  </h3> 
+        <h1 #myName class="my-name">
+            MOHiT CHOUHAN
+        </h1>
+        <div class="desig-div">
+            <h3 class="desing-css">
+                <span class="a-letter">a </span><span class="font-bold" #dynamicText></span><span class="cursor">|</span>
+            </h3>  
+        </div>
+
+    </div>
+    <div class="navItemDiv" #div2>
+        <div *ngFor="let navItem of navbarOptions; let i = index" #menuItems>
+            <div class="navBarItems jelly-text wave" [id]="'menu-item-'+i" (click)="navigateToPage(i)">
+              <span (mouseenter)="onMouseEnter(true)" (mouseleave)="onMouseLeave(false)" #menuItem *ngFor="let char of navItem.split('')" >{{ char }}</span>
+            </div>
+          </div> 
+    </div>
+</div>
