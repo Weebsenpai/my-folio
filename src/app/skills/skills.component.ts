@@ -133,11 +133,11 @@ export class SkillsComponent implements OnInit {
     this.rendererContainer.nativeElement.style.display = 'none';
 
 
-    const model = 'assets/models/planet_compressed.glb'
-    const dracoLoader = new DRACOLoader();  
-    dracoLoader.setDecoderPath('assets/jsm/libs/draco/');
+    const model = 'assets/models/planet_nolight.glb'
+    //const dracoLoader = new DRACOLoader();  
+    //dracoLoader.setDecoderPath('assets/jsm/libs/draco/');
     const gltfLoader = new GLTFLoader();
-    gltfLoader.setDRACOLoader(dracoLoader);
+    //gltfLoader.setDRACOLoader(dracoLoader);
     const material = new THREE.MeshStandardMaterial()
     gltfLoader.load(model, (gltf) => {
       this.gltfModel = gltf.scene;
