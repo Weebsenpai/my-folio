@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <g>
+            <g transform="translate(0 100)">
+            <ellipse rx="10" ry="10" transform="translate(160 60)" fill="white" stroke-width="0"/>
+            <ellipse rx="10" ry="10" transform="translate(110 60)" fill="white" stroke-width="0"/>
+            <ellipse rx="10" ry="10" transform="translate(60 60)" fill="white" stroke-width="0"/>
+            </g>
+            <g transform="translate(0 50)">
+            <ellipse rx="10" ry="10" transform="translate(160 60)" fill="white" stroke-width="0"/>
+            <ellipse rx="10" ry="10" transform="translate(110 60)" fill="white" stroke-width="0"/>
+            <ellipse rx="10" ry="10" transform="translate(60 60)" fill="white" stroke-width="0"/>
+            </g>
+            <g>
+            <ellipse rx="10" ry="10" transform="translate(160 60)" fill="#d3d3d3" stroke-width="0"/>
+            <ellipse rx="10" ry="10" transform="translate(110 60)" fill="#d3d3d3" stroke-width="0"/>
+            <ellipse rx="10" ry="10" transform="translate(60 60)" fill="#d3d3d3" stroke-width="0"/>
+            </g>
+            </g>
+            <path d="M70,50L170,150l-.10051.10051C172.43299,152.63401,174,156.13401,174,160c0,7.73199-6.26801,14-14,14-3.86599,0-7.36599-1.567-9.89949-4.10051L150,170L50,70l.10051-.10051C47.56701,67.36599,46,63.86599,46,60c0-7.73199,6.26801-14,14-14c3.86599,0,7.36599,1.567,9.89949,4.10051L70,50Z" transform="matrix(-1 0 0 1 220 0)" fill="none" stroke="white" stroke-width="5"/>
+            <path d="M70,50L170,150l-.10051.10051C172.43299,152.63401,174,156.13401,174,160c0,7.73199-6.26801,14-14,14-3.86599,0-7.36599-1.567-9.89949-4.10051L150,170L50,70l.10051-.10051C47.56701,67.36599,46,63.86599,46,60c0-7.73199,6.26801-14,14-14c3.86599,0,7.36599,1.567,9.89949,4.10051L70,50Z" fill="none" stroke="white" stroke-width="5"/>
+            </svg>
+            
